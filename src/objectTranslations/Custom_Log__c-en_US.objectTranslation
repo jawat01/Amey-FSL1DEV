@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Custom Log</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Custom Logs</value>
+    </caseValues>
+    <fields>
+        <help><!-- The message recorded for this particular log event.  This will normally be the error thrown or some critical calculation output, list of objects used within the transaction etc. --></help>
+        <label><!-- Message --></label>
+        <name>Message__c</name>
+    </fields>
+    <fields>
+        <help><!-- The name of the project that tis log applies too. --></help>
+        <label><!-- Project --></label>
+        <name>Project__c</name>
+    </fields>
+    <fields>
+        <help><!-- the timestamp that the log event is recorded at.  Logs are persisted at end of transaction so this field is the actual time of the event. --></help>
+        <label><!-- Time Stamp --></label>
+        <name>Time_Stamp__c</name>
+    </fields>
+    <fields>
+        <help><!-- The level that this log is recorded at. --></help>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Debug</masterLabel>
+            <translation><!-- Debug --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation><!-- Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Info</masterLabel>
+            <translation><!-- Info --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

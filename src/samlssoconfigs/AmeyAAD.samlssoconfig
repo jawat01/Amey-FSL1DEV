@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SamlSsoConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <identityLocation>SubjectNameId</identityLocation>
+    <identityMapping>Username</identityMapping>
+    <issuer>https://sts.windows.net/87c38de1-7677-4ae8-b543-17ff79c50890/</issuer>
+    <loginUrl>https://login.windows.net/87c38de1-7677-4ae8-b543-17ff79c50890/saml2</loginUrl>
+    <logoutUrl>https://login.windows.net/common/wsfederation?wa=wsignout1.0</logoutUrl>
+    <name>Amey Login</name>
+    <oauthTokenEndpoint>https://amey--FSL1DEV.cs88.my.salesforce.com/services/oauth2/token?so=00D9E0000000eZF</oauthTokenEndpoint>
+    <redirectBinding>true</redirectBinding>
+    <requestSignatureMethod>1</requestSignatureMethod>
+    <salesforceLoginUrl>https://amey--FSL1DEV.cs88.my.salesforce.com?so=00D9E0000000eZF</salesforceLoginUrl>
+    <samlEntityId>https://amey.my.salesforce.com</samlEntityId>
+    <samlVersion>SAML2_0</samlVersion>
+    <userProvisioning>false</userProvisioning>
+    <validationCert>MIIC8DCCAdigAwIBAgIQGK4BZMVgYZpOxZ2TvBEoAjANBgkqhkiG9w0BAQsFADA0MTIwMAYDVQQDEylNaWNyb3NvZnQgQXp1cmUgRmVkZXJhdGVkIFNTTyBDZXJ0aWZpY2F0ZTAeFw0xNzAzMDYxMzE3MDJaFw0yMDAzMDYxMzE3MDJaMDQxMjAwBgNVBAMTKU1pY3Jvc29mdCBBenVyZSBGZWRlcmF0ZWQgU1NPIENlcnRpZmljYXRlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4N+kX4oIhxvb+Glb0oyUmyV6U+kmnx5G7mvTjhpcQyBRmtiIFLYym23bVlvj9aCfS9X1AZc+9z7o28BD3LviVcn961Xwhj02eLI9lcAUnCSmXs8pIp02mfCoccwYn6omVyHL7ACKClSlfpIv20AMVLiETwywiw+KwkRhkoXK73dzh+sQRmNGOwx7kFit4Lrk1v33AygLSLXi5eZM9cmedU32bHLCCtPsxLesAYtwnkCjj2KkPvsvnQ3TmyychcGBrNTWUvnGAWUGBJ8HI2e4EwZdHEpwADxMknHgR+ANbnclCubt/DriI+7SC2Cd5p76jtHfq773T9jzzrPaGm2UIQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQBM6KIEdpmnAJ1+LVBusJH9QKgeyCeZrD2BCWjjSax2bCQbXmHXAC0X4MMwfXbAqE93sA549a24CyhkBbESns8cgBpvNgH3OnmewpzAOoCN4f5a+D+ly88cz2HbTcVeI4LibShamQO4PX1vgG1lWd8chp4rO5vqu+UwvUzQVFamCCiCM/aabIPxlq15DXp1rVoQAXKx328smx+gRLFuOFiL8Zfas07Syb1hOe9LsWGNHgsj63+G25L9I2i/ZRAeSpCTrtMJKzSUdSvwi1F5qE+NWPXcW2pNM7g3d5TUDABZ21K2Km8pbZ+/zYVF5Ww7q4Y5AsShVt7hKYwYW5ypYDYR</validationCert>
+</SamlSsoConfig>

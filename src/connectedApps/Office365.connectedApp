@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>jonathan.sawkins@amey.co.uk</contactEmail>
+    <iconUrl>https://login.salesforce.com/logos/Apps/Office365/icon.png</iconUrl>
+    <label>Office365</label>
+    <logoUrl>https://login.salesforce.com/logos/Apps/Office365/logo.png</logoUrl>
+    <samlConfig>
+        <acsUrl>https://login.microsoftonline.com/login.srf</acsUrl>
+        <encryptionType>AES_128</encryptionType>
+        <entityUrl>urn:federation:MicrosoftOnline</entityUrl>
+        <issuer>https://amey.my.salesforce.com</issuer>
+        <samlNameIdFormat>Unspecified</samlNameIdFormat>
+        <samlSubjectType>FederationId</samlSubjectType>
+    </samlConfig>
+</ConnectedApp>
